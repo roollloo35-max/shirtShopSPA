@@ -6,10 +6,10 @@ const Header = () => {
 
     return (
         <header className="w-full h-dvh flex bg-[#333] ">
-            <Container >
-                <div>
-                    
-                </div>
+            <Container>
+                <h1 className="text-[#fff]">
+                hello world!!!
+                </h1>
             </Container>
 
             <Image
@@ -18,7 +18,7 @@ const Header = () => {
                 fill
                 sizes="100vh"
                 style={{ objectFit: 'cover' }}
-                className="hidden md:block"
+                className="hidden md:static"
                 priority={true}
             />
 
