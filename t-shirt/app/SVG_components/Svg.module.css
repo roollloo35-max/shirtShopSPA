@@ -1,0 +1,165 @@
+.heart {
+    stroke-dasharray: 92 94;
+    stroke-dashoffset: 0;
+    stroke-opacity: 1;
+    pointer-events: visiblePainted;
+    /* animation: heart_draw 600ms linear forwards;  */
+}
+
+.heart:hover {
+    animation: heart_draw 600ms linear forwards;
+
+}
+
+
+@keyframes heart_draw {
+    0% {
+        stroke-dashoffset: 92;
+        stroke-opacity: 1;
+    }
+
+    91.83% {
+        stroke-opacity: 1;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+        stroke-opacity: 1;
+    }
+}
+
+
+.search {
+    stroke-dasharray: 90 92;
+    stroke-dashoffset: 0;
+    stroke-opacity: 1;
+    pointer-events: visiblePainted;
+
+}
+
+.search:hover {
+    animation: search_draw 600ms linear forwards;
+
+}
+
+@keyframes search_draw {
+    0% {
+        stroke-dashoffset: 92;
+        stroke-opacity: 1;
+    }
+
+    91.48936170212767% {
+        stroke-opacity: 1;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+        stroke-opacity: 1;
+    }
+}
+
+
+
+.shop_bug {
+    stroke-dasharray: 122 124;
+    stroke-dashoffset: 0;
+    stroke-opacity: 1;
+    pointer-events: visiblePainted;
+}
+
+.shop_bug:hover {
+    animation: shop_bug_draw 600ms linear 0ms forwards;
+}
+
+@keyframes shop_bug_draw {
+    0% {
+        stroke-dashoffset: 123;
+        stroke-opacity: 1;
+    }
+
+    92.3076923076923% {
+        stroke-opacity: 1;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+        stroke-opacity: 1;
+    }
+}
+
+.teg {
+    stroke-dasharray: 71 73;
+    stroke-dashoffset: 0;
+    stroke-opacity: 1;
+    pointer-events: visiblePainted;
+}
+
+.teg:hover {
+    animation: teg_draw 600ms linear 0ms forwards;
+
+}
+
+
+@keyframes teg_draw {
+    0% {
+        stroke-dashoffset: 72;
+        stroke-opacity: 1;
+    }
+
+    91.48936170212767% {
+        stroke-opacity: 1;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+
+        stroke-opacity: 0;
+    }
+}
+
+.user1 {
+    stroke-dasharray: 71 73;
+    stroke-dashoffset: 0;
+    stroke-opacity: 1;
+    pointer-events: visiblePainted;
+
+}
+
+.user2 {
+    stroke-dasharray: 71 73;
+    stroke-dashoffset: 0;
+    stroke-opacity: 1;
+    pointer-events: visiblePainted;
+
+}
+
+.user3 {
+    stroke-dasharray: 44 46;
+    stroke-dashoffset: 0;
+    stroke-opacity: 1;
+    pointer-events: visiblePainted;
+
+}
+
+.user1:hover,
+.user2:hover,
+.user3:hover {
+    animation: user_draw 600ms linear forwards;
+}
+
+@keyframes user_draw {
+    0% {
+        stroke-dashoffset: 72;
+        stroke-opacity: 1;
+    }
+
+    91.66666666666667% {
+        stroke-opacity: 1;
+    }
+
+    100% {
+
+        stroke-dashoffset: 0;
+        stroke-opacity: 1;
+    }
+}

@@ -2,21 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat, Roboto, Jost } from "next/font/google";
 import "./globals.css";
 
-const monoserrat = Montserrat({
-  variable: "--font-montserrat",
-  subsets: ["cyrillic"],
-});
 
-const roboto = Roboto({
-  variable: "--font-roboto",
-  subsets: ["cyrillic"],
-
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["cyrillic"],
-})
 
 
 export const metadata: Metadata = {
@@ -32,7 +18,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${roboto.variable} ${jost.variable} ${monoserrat.variable} h-full antialiased`}>
+      className={`h-full antialiased`}>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
